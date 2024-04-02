@@ -50,5 +50,15 @@ export function limparFila(fila) {
     fila.forEach (item -> (item=undefined) 
         }
 
+export function verTamanhoFila(fila = []) {
+let emptySpaces = (fila.length - fila.IndexOf(undefined)) 
+let usedSpaces = emptySpaces
+let size = fila.length
+let subQueue = [ ] 
+for(let i = 0; i<fila.indexOf(undefined); i++) {
+subQueue[1] = fila[1] 
+}
 
+console.log(fila) 
+}
 
