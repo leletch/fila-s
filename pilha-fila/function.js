@@ -234,3 +234,10 @@ console.log(“fila cheia”)
 return 
 }
 }
+
+
+    TAMANHO
+
+const fila = ["musical", "musica2", undefined, undefined];
+const resultado = verTamanhoFila(fila);
+console.log(resultado);
